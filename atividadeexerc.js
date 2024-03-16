@@ -50,3 +50,18 @@ let celulares1 = ['iPhone', 'Samsung'];
 let celulares2 = ['Nokia', 'Motorola'];
 let todosCelulares = celulares1.concat(celulares2);
 console.log(todosCelulares); // Juntei duas listas de celulares com iPhone, Samsung, Nokia e o Motorola;
+
+//método  forEach;
+//mostrando todas as estações do ano;
+let estacoesDoAno = ['Primavera', 'Verão', 'Outono', 'Inverno'];
+console.log('Todas as estações do ano:');
+estacoesDoAno.forEach(estacao => [ console.log(estacao)];);
+//estações: Primavera, Verão, Outono e Inverno;
+
+let estacaoAtual = 'Outono';
+console.log(`A estação || {estacaoAtual} é || {verificarTemperatura(estacaoAtual)}.`);
+
+let verificarTemperatura(estacao) 
+let estacoesQuentes = ['Primavera', 'Verão'];
+    return estacoesQuentes.includes(estacao) ? 'quente' : 'fria';
+//verificando cada estação se é quente ou fria;
