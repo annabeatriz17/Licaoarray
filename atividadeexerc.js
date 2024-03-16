@@ -70,3 +70,10 @@ let estacoesQuentes = ['Primavera', 'Verão'];
 let array = ['maçã', 'banana', 'laranja'];
 let resultado = array.join();
 console.log(resultado); // 'maçã,banana,laranja'
+
+//método filter;
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(filterEvenNumbers(numbers)); // números pares [2, 4, 6, 8, 10]
+
+let maisNumbers = [-2, -1, 0, 1, 2, 3, 4];
+console.log(filterEvenNumbers(maisNumbers)); // -2, 0, 2, 4
