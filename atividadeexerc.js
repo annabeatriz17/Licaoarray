@@ -21,3 +21,14 @@ let primeiroCachorro = cachorros.shift;
 console.log(primeiroCachorro); //Retirei o Labrador para passear;
 
 console.log(cachorros); //Retirei o Golden e o Bulldog para passear;
+
+//método unshitf;
+//Adicionando um ou mais cachorros da lista para passear;
+let cachorro = ['Poodle', 'Bulldog'];
+cachorros.unshift('Labrador');
+console.log(cachorros); //Adicionei o Labrador a lista para passear;
+
+cachorros.unshift('Dálmata', 'Pug');
+console.log(cachorros); //Adicionei o Dálmata e o Pug a lista para passear;
+
+
