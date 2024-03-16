@@ -37,9 +37,16 @@ let cores = ['vermelho', 'azul', 'verde'];
 cores.splice(1, 1, 'amarelo');
 console.log(cores); // adicionado o vermelho, amarelo e o verde;
 
-//método map
+//método map;
 // Criando uma lista de cachorros com idades.
 let dogs = ['Labrador', 'Poodle', 'Bulldog'];
 let dogsComIdades = dogs.map(dog => ({ nome: dog, idade: 5 }));
 console.log(cachorrosComIdades);
 //adicionado Labrador com 5 anos de idade, Poodle com 5 anos de idade e o Bulldog com 5 anos de idade;
+
+//método concat;
+//Jutando duas listas de celulares;
+let celulares1 = ['iPhone', 'Samsung'];
+let celulares2 = ['Nokia', 'Motorola'];
+let todosCelulares = celulares1.concat(celulares2);
+console.log(todosCelulares); // Juntei duas listas de celulares com iPhone, Samsung, Nokia e o Motorola;
