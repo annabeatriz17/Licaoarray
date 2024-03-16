@@ -36,3 +36,10 @@ console.log(cachorros); //Adicionei o Dálmata e o Pug a lista para passear;
 let cores = ['vermelho', 'azul', 'verde'];
 cores.splice(1, 1, 'amarelo');
 console.log(cores); // adicionado o vermelho, amarelo e o verde;
+
+//método map
+// Criando uma lista de cachorros com idades.
+let dogs = ['Labrador', 'Poodle', 'Bulldog'];
+let dogsComIdades = dogs.map(dog => ({ nome: dog, idade: 5 }));
+console.log(cachorrosComIdades);
+//adicionado Labrador com 5 anos de idade, Poodle com 5 anos de idade e o Bulldog com 5 anos de idade;
