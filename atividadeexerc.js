@@ -31,4 +31,8 @@ console.log(cachorros); //Adicionei o Labrador a lista para passear;
 cachorros.unshift('Dálmata', 'Pug');
 console.log(cachorros); //Adicionei o Dálmata e o Pug a lista para passear;
 
-
+//método splice;
+//Mudando a cor de uma parede na paleta de cores.
+let cores = ['vermelho', 'azul', 'verde'];
+cores.splice(1, 1, 'amarelo');
+console.log(cores); // adicionado o vermelho, amarelo e o verde;
