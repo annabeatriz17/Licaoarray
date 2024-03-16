@@ -65,3 +65,8 @@ let verificarTemperatura(estacao)
 let estacoesQuentes = ['Primavera', 'Verão'];
     return estacoesQuentes.includes(estacao) ? 'quente' : 'fria';
 //verificando cada estação se é quente ou fria;
+
+//método join;
+let array = ['maçã', 'banana', 'laranja'];
+let resultado = array.join();
+console.log(resultado); // 'maçã,banana,laranja'
